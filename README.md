@@ -6,5 +6,6 @@ Either connect to your own mySQL database, or create your own json file containi
 
 To start, please: 
 > run: npm install in root & in /client to retrieve missing node_modules folders. <br/>
+> Initialize a .env file if connecting to SQL, setup up connection variables. (Which type of variables can be seen in DbService connection function) <br/>
 > run: npm run server in /server <br/>
 > run: npm start in /client 

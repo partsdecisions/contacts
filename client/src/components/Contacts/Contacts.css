@@ -1,0 +1,99 @@
+#download {
+    font-size: 2.3em;
+    color: grey;
+    margin-top: 6px;
+}
+
+#download :hover {
+    color: #00b3b3;
+    transition: 100ms;
+}
+
+#upload {
+    font-size: 2.3em;
+    color: grey;
+    margin-top: 0px;
+}
+
+#upload :hover {
+    color: #00b3b3;
+    transition: 100ms;
+    cursor: pointer;
+}
+
+.btn-download {
+    display: flex;
+    align-items: center;
+}
+
+.contacts-container {
+    width: 40%; 
+    margin: auto;
+    margin-top: 4em;
+}
+
+.contacts-header { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.search-form {
+    margin: 1em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar {
+    width: 100%;
+    padding: 0.8em;
+    border-style: none;
+    border-bottom: solid #00b3b3 1px;
+    outline: none;
+    
+    border-width: 1px;
+    border-color: #00b3b3;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+body::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.2);
+}
+   
+body::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+}
+
+.social-share {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .contacts-container {
+        width: 80%; 
+        margin: auto;
+        margin-top: 4em;
+    }
+
+}
+
+@media only screen and (max-width: 1200px){ 
+
+    .contacts-container {
+        width: 80%;     
+        margin: auto;
+        margin-top: 4em;
+    }
+    
+}
